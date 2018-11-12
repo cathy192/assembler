@@ -25,6 +25,6 @@ int instr_trans(char *op, char *args, char* mcode)
 		strcpy(mcode,"a3");
 	else if( strcmp(str1[0],"$")==0 && strcmp(str2[0],"%")==0)//immediate to reg
 		strcpy(mcode,"b8");
-
+	}
 	return 1;	
 }
